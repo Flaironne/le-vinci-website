@@ -30,10 +30,11 @@ export const navigation = [
 ] as const;
 
 export const restaurantImages = {
-  hero: "/placeholder-hero.svg",
-  terrace: "/placeholder-terrace.svg",
-  dish: "/placeholder-dish.svg",
-  interior: "/placeholder-interior.svg",
+  hero: "/restaurant.jpg",
+  terrace: "/terrace.jpg",
+  dish: "/terrace.jpg",
+  interior: "/interior.jpg",
+  logo: "/le_vinci_logo.jpg",
 } as const;
 
 export const menuSections = [

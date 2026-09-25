@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { navigation, siteConfig } from "../lib/site";
 
 export function SiteHeader() {
@@ -6,7 +7,14 @@ export function SiteHeader() {
     <header className="site-header">
       <div className="container header-inner">
         <Link href="/" className="brand" aria-label="Le Vinci, accueil">
-          <span className="brand-mark">LV</span>
+          <Image
+            className="brand-logo"
+            src="/le_vinci_logo.jpg"
+            alt="Logo Le Vinci"
+            width={52}
+            height={40}
+            priority
+          />
           <span>
             <strong>{siteConfig.name}</strong>
             <small>Maison française</small>

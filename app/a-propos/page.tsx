@@ -65,7 +65,7 @@ export default function AboutPage() {
               <div>
                 <Image
                   src={restaurantImages.dish}
-                  alt="Assiette de cuisine française traditionnelle"
+                  alt="Terrasse fleurie du restaurant Le Vinci"
                   fill
                   sizes="(max-width: 800px) 90vw, 50vw"
                 />
