@@ -18,7 +18,7 @@ export const siteConfig = {
     { days: "Mercredi - Samedi", hours: "19h00 - 22h00" },
   ],
   social: {
-    facebook: "[À COMPLÉTER]",
+    facebook: "https://www.facebook.com/restaurantlevinci",
   },
 } as const;
 
@@ -40,86 +40,233 @@ export const restaurantImages = {
 
 export const menuSections = [
   {
-    name: "Les entrées",
+    name: "Les entrées froides",
     eyebrow: "Pour commencer",
     items: [
       {
-        name: "Terrine de campagne maison",
-        description: "Condiment de saison, pain grillé",
-        price: "11 €",
+        name: "Carpaccio de bœuf",
+        description: "",
+        price: "13,80 €",
       },
       {
-        name: "Salade gourmande du Vinci",
-        description: "Œuf poché, légumes croquants, vinaigrette maison",
-        price: "13 €",
-      },
-      {
-        name: "Tarte fine aux légumes",
-        description: "Crème légère aux herbes fraîches",
-        price: "12 €",
+        name: "Melon jambon cru",
+        description: "",
+        price: "10,80 €",
       },
     ],
   },
   {
-    name: "Les plats",
-    eyebrow: "La maison",
+    name: "Les salades estivales",
+    eyebrow: "Fraîcheur",
     items: [
       {
-        name: "Bouchée à la reine",
-        description: "Volaille, champignons et sauce veloutée, frites maison",
-        price: "21 €",
+        name: "Salade de la mer",
+        description: "",
+        price: "24 €",
       },
       {
-        name: "Suggestion du moment",
-        description: "Selon l'arrivage et l'inspiration de notre cuisine",
-        price: "[À COMPLÉTER]",
+        name: "Salade César",
+        description: "",
+        price: "17,80 €",
       },
       {
-        name: "Filet de poisson rôti",
-        description: "Légumes de saison, beurre blanc citronné",
+        name: "Salade californienne",
+        description: "",
+        price: "17,80 €",
+      },
+      {
+        name: "Salade paysanne",
+        description: "",
+        price: "17,80 €",
+      },
+    ],
+  },
+  {
+    name: "Les bowls chauds & froids",
+    eyebrow:
+      "Fèves de soja, tomates cerises, carottes, radis, avocat, maïs, riz noir, granberry, sésame, banane plantain, sauce de la cheffe",
+    items: [
+      {
+        name: "Bowl végétarien (falafel)",
+        description: "",
+        price: "17,80 €",
+      },
+      {
+        name: "Bowl océan (saumon, scampis)",
+        description: "",
+        price: "24 €",
+      },
+      {
+        name: 'Bowl "Crousty Chicken"',
+        description: "",
+        price: "19 €",
+      },
+      {
+        name: "Bowl italien (jambon cru, mozzarella)",
+        description: "",
+        price: "19 €",
+      },
+    ],
+  },
+  {
+    name: "Les plats froids",
+    eyebrow: "Accompagnés de frites",
+    items: [
+      {
+        name: "Vitello tonnato",
+        description: "",
+        price: "24 €",
+      },
+      {
+        name: "Carpaccio de bœuf XL",
+        description: "",
+        price: "24 €",
+      },
+      {
+        name: "Tartare de bœuf classique",
+        description: "",
+        price: "22 €",
+      },
+      {
+        name: "Tartare de bœuf thaï",
+        description: "",
+        price: "24 €",
+      },
+      {
+        name: "Tartare de bœuf à l'italienne",
+        description: "",
         price: "24 €",
       },
     ],
   },
   {
-    name: "Les desserts",
-    eyebrow: "La note sucrée",
+    name: "Les poissons",
+    eyebrow: "Selon arrivage",
     items: [
       {
-        name: "Tarte aux fruits de saison",
-        description: "Pâte sablée, crème légère",
-        price: "8 €",
+        name: "Carpe à la semoule",
+        description: "Frites et salade verte",
+        price: "22 €",
       },
       {
-        name: "Café gourmand",
-        description: "Assortiment de douceurs maison",
-        price: "9 €",
-      },
-      {
-        name: "Dessert du jour",
-        description: "Demandez la suggestion à notre équipe",
-        price: "8 €",
+        name: "Poissons selon arrivage",
+        description: "Consultez notre ardoise",
+        price: "affichage à l'ardoise",
       },
     ],
   },
   {
-    name: "Les boissons",
-    eyebrow: "À partager",
+    name: "Les plats traditionnels",
+    eyebrow:
+      "Garniture au choix : frites, tagliatelles, spaetzles, riz ou légumes",
     items: [
       {
-        name: "Vins d'Alsace",
-        description: "Au verre ou à la bouteille",
-        price: "[À COMPLÉTER]",
+        name: "Bouchée à la reine",
+        description: "",
+        price: "23 €",
       },
       {
-        name: "Eaux minérales",
-        description: "Plate ou pétillante",
-        price: "[À COMPLÉTER]",
+        name: "Émincé de rognons de veau à la moutarde",
+        description: "",
+        price: "23 €",
+      },
+    ],
+  },
+  {
+    name: "Les viandes",
+    eyebrow:
+      "Garniture au choix : frites, tagliatelles, spaetzles, riz ou légumes",
+    items: [
+      {
+        name: "Cordon bleu de veau",
+        description: "Sauce forestière",
+        price: "25,80 €",
       },
       {
-        name: "Café / Thé",
-        description: "Sélection de boissons chaudes",
-        price: "[À COMPLÉTER]",
+        name: "Escalope de veau",
+        description: "Sauce forestière",
+        price: "23 €",
+      },
+      {
+        name: "Escalope de veau viennoise",
+        description: "Sauce forestière",
+        price: "24 €",
+      },
+      {
+        name: "Onglet de bœuf",
+        description:
+          "Sauce au choix : échalotes, poivre ou beurre maître d'hôtel",
+        price: "24 €",
+      },
+    ],
+  },
+  {
+    name: "Les burgers",
+    eyebrow: "Maison",
+    items: [
+      {
+        name: "Rösti burger",
+        description: "",
+        price: "18,80 €",
+      },
+      {
+        name: "Burger au lard fumé",
+        description: "",
+        price: "17,80 €",
+      },
+    ],
+  },
+  {
+    name: "Les tartes flambées",
+    eyebrow: "Accompagnées de salade",
+    items: [
+      {
+        name: "Tarte flambée traditionnelle",
+        description: "",
+        price: "13 €",
+      },
+      {
+        name: "Tarte flambée au saumon",
+        description: "",
+        price: "15 €",
+      },
+    ],
+  },
+  {
+    name: "Les pizzas",
+    eyebrow: "Pâte maison à l'huile d'olive",
+    items: [
+      {
+        name: "Pizza orientale",
+        description: "",
+        price: "15,80 €",
+      },
+      {
+        name: "Pizza reine",
+        description: "",
+        price: "15,80 €",
+      },
+      {
+        name: "Pizza margherita",
+        description: "",
+        price: "13,80 €",
+      },
+      {
+        name: "Pizza aux fruits de mer",
+        description: "",
+        price: "16,80 €",
+      },
+    ],
+  },
+  {
+    name: "Menu enfant",
+    eyebrow: "Pour les moins de 12 ans",
+    items: [
+      {
+        name: "Menu enfant",
+        description:
+          "Nuggets maison, frites, salade, glace 2 boules et jus de fruits",
+        price: "12,50 €",
       },
     ],
   },

@@ -34,22 +34,26 @@ export default function LegalPage() {
           <p>
             <strong>Nom du restaurant :</strong> {siteConfig.name}
             <br />
-            <strong>Nom du gérant :</strong> [À COMPLÉTER]
+            <strong>Nom du gérant :</strong> Dominique WU
             <br />
-            <strong>Forme juridique :</strong> [À COMPLÉTER]
+            <strong>Forme juridique :</strong> SARL
             <br />
-            <strong>SIRET :</strong> [À COMPLÉTER]
+            <strong>SIRET :</strong> 84235230400021
             <br />
-            <strong>Adresse du siège :</strong> [À COMPLÉTER]
+            <strong>Adresse du siège :</strong> {siteConfig.address.street},{" "}
+            {siteConfig.address.postalCode} {siteConfig.address.city}
+            <br />
+            <strong>Numéro de téléphone :</strong>{" "}
+            <a href={siteConfig.phoneHref}>{siteConfig.phone}</a>
           </p>
           <h2>Directeur de publication</h2>
-          <p>[À COMPLÉTER]</p>
+          <p>Florian WU</p>
           <h2>Hébergement</h2>
           <p>
             Le site est hébergé par Vercel Inc.
             <br />
-            <strong>Adresse de l’hébergeur :</strong> [À COMPLÉTER selon les
-            informations légales officielles de Vercel]
+            <strong>Adresse de l’hébergeur :</strong> 102 AVENUE DES CHAMPS
+            ELYSEES 75008 PARIS
           </p>
           <h2>Propriété intellectuelle</h2>
           <p>
