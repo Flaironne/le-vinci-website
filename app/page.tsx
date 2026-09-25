@@ -142,6 +142,25 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="section facebook-section">
+          <div className="container narrow">
+            <p className="eyebrow">Chaque jour</p>
+            <h2>Découvrez les menus du jour.</h2>
+            <p className="section-copy">
+              Notre menu évolue au fil des saisons et des inspirations de la
+              cuisine. Retrouvez les suggestions du jour sur notre page
+              Facebook.
+            </p>
+            <a
+              className="button"
+              href={siteConfig.social.facebook}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Voir les menus du jour <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </section>
         <section className="split-callout">
           <div className="container callout-inner">
             <div>

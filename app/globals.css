@@ -52,6 +52,8 @@ h1, h2, h3, .footer-title { font-family: var(--font-display), serif; font-weight
 .feature-number { color: var(--gold); font-family: var(--font-display), serif; font-size: 42px; }
 .feature h3 { font-size: 25px; margin: 12px 0; }
 .feature p { color: var(--muted); line-height: 1.65; margin: 0; }
+.facebook-section { text-align: center; }
+.facebook-section .section-copy { max-width: 580px; margin: 0 auto 30px; }
 .split-callout { background: var(--brown); color: white; padding: 75px 0; }
 .callout-inner { display: flex; justify-content: space-between; align-items: center; gap: 45px; }
 .callout-inner h2 { font-size: clamp(42px, 5vw, 64px); line-height: .9; margin: 0; }
