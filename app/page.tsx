@@ -96,8 +96,17 @@ export default function Home() {
                 />
               </div>
               <div className="stamp">
-                <strong>10+</strong>
-                <span>Années d’expérience</span>
+                <Image
+                  className="stamp-image"
+                  src={restaurantImages.experience}
+                  alt="Terrasse fleurie du restaurant Le Vinci"
+                  fill
+                  sizes="180px"
+                />
+                <div className="stamp-content">
+                  <strong>10+</strong>
+                  <span>Années d’expérience</span>
+                </div>
               </div>
             </div>
           </div>

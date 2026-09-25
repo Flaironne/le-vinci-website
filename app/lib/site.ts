@@ -34,6 +34,7 @@ export const restaurantImages = {
   terrace: "/terrace.jpg",
   dish: "/terrace.jpg",
   interior: "/interior.jpg",
+  experience: "/terrace2.jpg",
   logo: "/le_vinci_logo.jpg",
 } as const;
 

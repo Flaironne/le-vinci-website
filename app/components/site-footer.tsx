@@ -20,7 +20,9 @@ export function SiteFooter() {
             <br />
             {siteConfig.address.postalCode} {siteConfig.address.city}
           </address>
-          <a href={siteConfig.phoneHref}>{siteConfig.phone}</a>
+          <div>
+            <a href={siteConfig.phoneHref}>{siteConfig.phone}</a>
+          </div>
         </div>
         <div>
           <p className="footer-heading">Explorer</p>

@@ -41,9 +41,12 @@ h1, h2, h3, .footer-title { font-family: var(--font-display), serif; font-weight
 .image-frame img { object-fit: cover; }
 .image-frame::before { content: ""; position: absolute; inset: 24px -24px -24px 24px; border: 1px solid var(--gold); }
 .image-frame > div { position: relative; height: 510px; }
-.stamp { position: absolute; z-index: 1; left: -30px; bottom: -30px; background: var(--paper); padding: 25px 30px; text-align: center; box-shadow: 0 12px 40px rgba(59,43,37,.12); }
-.stamp strong { display: block; font-family: var(--font-display), serif; color: var(--gold); font-size: 48px; line-height: 1; }
-.stamp span { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .1em; }
+.stamp { position: absolute; z-index: 1; left: -30px; bottom: -30px; min-width: 180px; overflow: hidden; background: var(--brown); padding: 25px 30px; text-align: center; box-shadow: 0 12px 40px rgba(59,43,37,.12); }
+.stamp::before { content: ""; position: absolute; z-index: 1; inset: 0;  }
+.stamp-image { z-index: 0; object-fit: cover; }
+.stamp-content { position: relative; z-index: 2; }
+.stamp strong { display: block; font-family: var(--font-display), serif; color: #fff8e7; font-size: 48px; line-height: 1; }
+.stamp span { font-size: 11px; color: #fff8e7; text-transform: uppercase; letter-spacing: .1em; }
 .feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 58px; }
 .feature { border-top: 1px solid #d6cbbb; padding-top: 20px; }
 .feature-number { color: var(--gold); font-family: var(--font-display), serif; font-size: 42px; }
