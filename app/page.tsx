@@ -92,6 +92,7 @@ export default function Home() {
                   src={restaurantImages.terrace}
                   alt="Terrasse fleurie du restaurant Le Vinci"
                   fill
+                  loading="eager"
                   sizes="(max-width: 800px) 90vw, 50vw"
                 />
               </div>

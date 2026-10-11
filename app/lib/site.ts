@@ -31,10 +31,10 @@ export const navigation = [
 
 export const restaurantImages = {
   hero: "/restaurant.jpg",
-  terrace: "/terrace.jpg",
-  dish: "/terrace.jpg",
+  terrace: "/terrace-v2.jpg",
+  dish: "/terrace-v2.jpg",
   interior: "/interior.jpg",
-  experience: "/terrace2.jpg",
+  experience: "/salle.jpg",
   logo: "/le_vinci_logo.jpg",
 } as const;
 
