@@ -40,102 +40,33 @@ export const restaurantImages = {
 
 export const menuSections = [
   {
-    name: "Les entrées froides",
+    name: "Les entrées",
     eyebrow: "Pour commencer",
     items: [
       {
-        name: "Carpaccio de bœuf",
+        name: "Demi-douzaine d'escargots",
         description: "",
-        price: "13,80 €",
+        price: "12,80 €",
       },
       {
-        name: "Melon jambon cru",
+        name: "Velouté de légumes",
+        description: "",
+        price: "6,80 €",
+      },
+      {
+        name: "Salade vigneronne",
         description: "",
         price: "10,80 €",
       },
-    ],
-  },
-  {
-    name: "Les salades estivales",
-    eyebrow: "Fraîcheur",
-    items: [
       {
-        name: "Salade de la mer",
+        name: "Croustillant de chèvre au miel",
         description: "",
-        price: "24 €",
-      },
-      {
-        name: "Salade César",
-        description: "",
-        price: "17,80 €",
-      },
-      {
-        name: "Salade californienne",
-        description: "",
-        price: "17,80 €",
+        price: "10,80 €",
       },
       {
         name: "Salade paysanne",
         description: "",
-        price: "17,80 €",
-      },
-    ],
-  },
-  {
-    name: "Les bowls chauds & froids",
-    eyebrow:
-      "Fèves de soja, tomates cerises, carottes, radis, avocat, maïs, riz noir, granberry, sésame, banane plantain, sauce de la cheffe",
-    items: [
-      {
-        name: "Bowl végétarien (falafel)",
-        description: "",
-        price: "17,80 €",
-      },
-      {
-        name: "Bowl océan (saumon, scampis)",
-        description: "",
-        price: "24 €",
-      },
-      {
-        name: 'Bowl "Crousty Chicken"',
-        description: "",
-        price: "19 €",
-      },
-      {
-        name: "Bowl italien (jambon cru, mozzarella)",
-        description: "",
-        price: "19 €",
-      },
-    ],
-  },
-  {
-    name: "Les plats froids",
-    eyebrow: "Accompagnés de frites",
-    items: [
-      {
-        name: "Vitello tonnato",
-        description: "",
-        price: "24 €",
-      },
-      {
-        name: "Carpaccio de bœuf XL",
-        description: "",
-        price: "24 €",
-      },
-      {
-        name: "Tartare de bœuf classique",
-        description: "",
-        price: "22 €",
-      },
-      {
-        name: "Tartare de bœuf thaï",
-        description: "",
-        price: "24 €",
-      },
-      {
-        name: "Tartare de bœuf à l'italienne",
-        description: "",
-        price: "24 €",
+        price: "10,80 €",
       },
     ],
   },
@@ -144,21 +75,20 @@ export const menuSections = [
     eyebrow: "Selon arrivage",
     items: [
       {
-        name: "Carpe à la semoule",
-        description: "Frites et salade verte",
+        name: "Carpes",
+        description: "Frites, salade verte",
         price: "22 €",
       },
       {
-        name: "Poissons selon arrivage",
-        description: "Consultez notre ardoise",
+        name: "Poisson du moment",
+        description: "Selon l'arrivage, voir l'ardoise",
         price: "affichage à l'ardoise",
       },
     ],
   },
   {
     name: "Les plats traditionnels",
-    eyebrow:
-      "Garniture au choix : frites, tagliatelles, spaetzles, riz ou légumes",
+    eyebrow: "Garniture au choix : frites, tagliatelles, spaetzle ou légumes",
     items: [
       {
         name: "Bouchée à la reine",
@@ -166,7 +96,7 @@ export const menuSections = [
         price: "23 €",
       },
       {
-        name: "Émincé de rognons de veau à la moutarde",
+        name: "Émincés de rognons de veau",
         description: "",
         price: "23 €",
       },
@@ -174,87 +104,43 @@ export const menuSections = [
   },
   {
     name: "Les viandes",
-    eyebrow:
-      "Garniture au choix : frites, tagliatelles, spaetzles, riz ou légumes",
+    eyebrow: "Garniture au choix : frites, tagliatelles, spaetzle ou légumes",
     items: [
-      {
-        name: "Cordon bleu de veau",
-        description: "Sauce forestière",
-        price: "25,80 €",
-      },
-      {
-        name: "Escalope de veau",
-        description: "Sauce forestière",
-        price: "23 €",
-      },
-      {
-        name: "Escalope de veau viennoise",
-        description: "Sauce forestière",
-        price: "24 €",
-      },
       {
         name: "Onglet de bœuf",
         description:
-          "Sauce au choix : échalotes, poivre ou beurre maître d'hôtel",
+          "Sauce au choix : poivre, échalotes ou beurre maître d'hôtel",
         price: "24 €",
       },
-    ],
-  },
-  {
-    name: "Les burgers",
-    eyebrow: "Maison",
-    items: [
       {
-        name: "Rösti burger",
+        name: "Tartare de bœuf classique",
         description: "",
-        price: "18,80 €",
+        price: "22 €",
       },
       {
-        name: "Burger au lard fumé",
+        name: "Tartare de bœuf italien",
         description: "",
-        price: "17,80 €",
-      },
-    ],
-  },
-  {
-    name: "Les tartes flambées",
-    eyebrow: "Accompagnées de salade",
-    items: [
-      {
-        name: "Tarte flambée traditionnelle",
-        description: "",
-        price: "13 €",
+        price: "24 €",
       },
       {
-        name: "Tarte flambée au saumon",
+        name: "Escalope de veau",
         description: "",
-        price: "15 €",
-      },
-    ],
-  },
-  {
-    name: "Les pizzas",
-    eyebrow: "Pâte maison à l'huile d'olive",
-    items: [
-      {
-        name: "Pizza orientale",
-        description: "",
-        price: "15,80 €",
+        price: "23 €",
       },
       {
-        name: "Pizza reine",
+        name: "Escalope viennoise",
         description: "",
-        price: "15,80 €",
+        price: "24 €",
       },
       {
-        name: "Pizza margherita",
+        name: "Cordon bleu classique",
         description: "",
-        price: "13,80 €",
+        price: "25,80 €",
       },
       {
-        name: "Pizza aux fruits de mer",
+        name: "Cordon bleu au munster",
         description: "",
-        price: "16,80 €",
+        price: "26,80 €",
       },
     ],
   },
@@ -264,9 +150,24 @@ export const menuSections = [
     items: [
       {
         name: "Menu enfant",
-        description:
-          "Nuggets maison, frites, salade, glace 2 boules et jus de fruits",
+        description: "Nuggets maison, frites, salade, glace 2 boules, sirop",
         price: "12,50 €",
+      },
+    ],
+  },
+  {
+    name: "Les tartes flambées",
+    eyebrow: "Accompagnées d'une salade verte",
+    items: [
+      {
+        name: "Tarte flambée traditionnelle",
+        description: "",
+        price: "13 €",
+      },
+      {
+        name: "Tarte flambée alsacienne",
+        description: "",
+        price: "15 €",
       },
     ],
   },
